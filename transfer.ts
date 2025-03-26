@@ -5,7 +5,7 @@ import wallet from "./data/dev-wallet.json";
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Define our Turbin3 public key
-const to = new PublicKey("6d3U1DhUZLtNNXQAfagd3rBzRGKUU9xrzjqMs61mpJVd");
+const to = new PublicKey("2wt9vDBkLAwBmeWq4rSPSQ9ie2TLAjwvJByCVB8iuNa7");
 
 //Create a Solana devnet connection
 const connection = new Connection("https://api.devnet.solana.com");
@@ -30,7 +30,6 @@ const connection = new Connection("https://api.devnet.solana.com");
     // Remove our transfer instruction to replace it
     transaction.instructions.pop();
     // Now add the instruction back with correct amount of lamports
-
     transaction.add(
       SystemProgram.transfer({
         fromPubkey: from.publicKey,
