@@ -1,6 +1,6 @@
 ### Notes.
 
-SOLANA ADDRESS: 6d3U1DhUZLtNNXQAfagd3rBzRGKUU9xrzjqMs61mpJVd
+PUBLIC SOLANA ADDRESS: 2wt9vDBkLAwBmeWq4rSPSQ9ie2TLAjwvJByCVB8iuNa7
 
 ### Link to all Operations
 
